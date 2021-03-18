@@ -1,26 +1,34 @@
-Study,N_HC,N_SZ,N_BD,N_MDD,N_PSYMIX,E_HC,S_HC,E_SZ,S_SZ,E_BD,S_BD,E_MDD,S_MDD,Review later,Imputed,details,
-"(Koutsouleris et al., 2014)*",800,,,104,,0,5.57,5.5,6,,,4,6.2,x,HC,Missing HC mean and std,ASKED BY EMAIL (July 23)
-"(Schnack et al., 2016)",386,141,,,,-0.0017,5.4,3.36,5.87,,,,,,,,
-"(Voisey J. et al., 2017) – Discovery",24,341,,,,-1.35,5.73,1.3,4.56,,,,,,,SE to STD,
-"(Voisey J. et al., 2017) – Replication",227,190,,,,0.17,3.77,-0.021,3.58,,,,,,,,
-"(McKinney B.C. et al., 2017)",22,22,,,,0.009651,3.43572954,-1.311,3.75749207,,,,,,,,ASKED BY EMAIL (July 23)
-"(Nenadić et al., 2017)",70,45,22,,,-0.22,5.57,2.56,6,-1.25,4.63,,,,,,
-"(Kolenic et al., 2018)",114,120,,,,0.14,4.69,2.64,4.7,,,,,,,First-episode psychosis and obesity,
-"(Shahab et al., 2019)",91,81,53,,,0.67,21.94,7.8,14.58,0.14,16.96,,,,,SE to STD,
-"(Kaufmann et al., 2019)",1110,1110,,,,0,7.04,3.83,7.98,,,,,,,,Replied to email
-"(Kaufmann et al., 2019)",459,,459,,,0,6.72,,,2.07,7.39,,,,,,
-"(Kaufmann et al., 2019)",208,,,208,,0,6.28,,,,,0.86,6.53,,,,
-"(Hajek et al., 2019)",43,43,,,,-0.01,4.15,2.64,4.15,,,,,,,First-episode psychosis,
-"(Van Gestel H. et al., 2019)",45,,41,,,-0.15,5.65,,,0.83,5.59,,,,,CI to std,ADJUSTED BY AGE
-"(Van Gestel H. et al., 2019) – No lithium",45,,43,,,-0.15,5.65,,,4.96,5.62,,,,,,
-"(Besteher et al., 2019)*",40,,,38,,0,5.57,,,,,0.41,6.2,,HC and MDD std,missing std for both groups,ASKED BY EMAIL (July 23)
-"(Truelove-Hill et al., 2020)",53,43,,,,-0.33,2.06,0.41,1.82,,,,,,,,
-"(Han et al., 2019)",319,,,811,,-0.46,3.57,,,,,0.18,3.7,,,,"Adjusted for sex, education, body mass index, cotinine levels, alcohol use, physical activity, and number of chronic diseases"
-"(Han LKM et al., 2020)",2126,,,2675,,-0.2,8.44,,,,,1.08,11.3784885,,,found correlation with age in the brain-PAD,
-"(Tonessen et al., )",990,648,185,,,-2.77,8,-0.09,8.79,-0.02,8.53,,,,,,
-"(Rokicki et al., 2020)",,,,,,,,,,,,,,,,,"EMAIL AND ASK FOR GLOBAL MULTIMODAL FOR SCZ AND BD (THE ACTUAL VALUES, NOT THE BAG DIFF)"
-"(Christmas et al., 2020)",94,,,76,,7.33,5.54,,,,,7.46,7.56,,,,
-"(Christmas et al., 2020) � Late life",36,,,118,,-1.23,7.62,,,,,3.69,7.16,,,,
-"(Chen et al., 2020)",160,158,,,,0.26,5,4.63,8.02,,,,,,,Results from the transferred model,
-"(Kuo et al., 2020)",109,26,,30,,0.17,4.62,5.69,6.73,,,2.16,5.55,,,,
-"(Dunlop et al., 2021)",97,,,112,,3.38,14.06,,,,,5.49,12.65,,,Functional and uses cross-validation to assess the model,
+Study,N_HC,N_SZ,N_BD,N_MDD,N_PSYMIX,E_HC,S_HC,E_SZ,S_SZ,E_BD,S_BD,E_MDD,S_MDD,Review later,Imputed,details,,mean_age_hc,std_age_hc,mean_age_sz,std_age_sz,mean_age_bd,std_age_bd,mean_age_mdd,std_age_mdd
+"(Schnack et al., 2016)",386,141,,,,-0.0017,5.4,3.36,5.87,,,,,,,,,34.07,11.81,29.5,9.96,,,,
+"(Nenadic et al., 2017)",70,45,22,,,-0.22,5.57,2.56,6,-1.25,4.63,,,,,,,33.8,9.4,33.7,10.5,37.7,10.7,,
+"(Kolenic et al., 2018)",114,120,,,,0.14,4.69,2.64,4.7,,,,,,,First-episode psychosis and obesity,,25.7,4.01,27,4.94,,,,
+"(Hajek et al., 2019)",43,43,,,,-0.01,4.15,2.64,4.15,,,,,,,First-episode psychosis,,27.05,4.4,27.09,4.93,,,,
+"(Kaufmann et al., 2019)",1110,1110,,,,0,7.04,3.83,7.98,,,,,,,,Replied to email,,,33.79829,10.64819,,,,
+"(Kaufmann et al., 2019)",459,,459,,,0,6.72,,,2.07,7.39,,,,,,,,,,,33.79455,10.68185,,
+"(Kaufmann et al., 2019)",208,,,208,,0,6.28,,,,,0.86,6.53,,,,,,,,,,,38.67933,13.40464
+"(Shahab et al., 2019) - First sample",41,81,53,,,0.67,14.73,7.8,14.58,0.14,16.96,,,,,SE to STD,,,,41.54148,16.307,41.86906,18.97585,,
+"(Shahab et al., 2019) - Second sample",30,67,,,,1.8,15.5,6.12,16.29,,,,,,,,,,,40.63,16.27,,,,
+"(Van Gestel H. et al., 2019)",45,,41,,,-0.15,5.65,,,0.83,5.59,,,,,CI to std,ADJUSTED BY AGE,42.26,13.8,,,46.96,13.77,,
+"(Van Gestel H. et al., 2019) - No lithium",45,,43,,,-0.15,5.65,,,4.96,5.62,,,,,,,42.26,13.8,,,48.17,11.49,,
+"(Bashyam et al., 2020)",448,387,,,,-2.29,4.707,0.75,4.947,,,,,,,Email sent,"EMAIL AND ASK FOR BRAIN AGE DELTA MEAN AND STANDARD DEVIATION FOR THE HC GROUP (SZ) SZ GROUP, HC GROUP (MDD) and MDD group",,,,,,,,
+"(Bashyam et al., 2020)",204,,,204,,0.11,6.16,,,,,0.73,5.57,,,,,,,,,,,,
+"(Christman et al., 2020)",94,,,76,,7.33,5.54,,,,,7.46,7.56,,,,,30.14,9.2,,,,,36.21,9.04
+"(Christman et al., 2020) - Late life",36,,,118,,-1.23,7.62,,,,,3.69,7.16,,,,,70.06,6.65,,,,,66.41,5.45
+"(Chen et al., 2020)",160,158,,,,0.26,5,4.63,8.02,,,,,,,Results from the transferred model,,31.7,9.9,31,8.5,,,,
+"(Han et al., 2020)",2126,,,2675,,-0.2,8.44,,,,,0.68,8.82,,,found correlation with age in the brain-PAD,,42.9307,14.0996,,,,,43.0526,13.674
+"(Kuo et al., 2020)",109,26,,30,,0.17,4.62,5.69,6.73,,,2.16,5.55,,,,,62,7.6,56,4.5,,,61.5,8.2
+"(Tonnesen et al., 2020)",990,648,185,,,-2.77,8,-0.09,8.79,-0.02,8.53,,,,,,,34.7,11.24,34.39,11.4,33.12,10.53,,
+"(Truelove-Hill et al., 2020)",53,43,,,,-0.33,2.06,0.41,1.82,,,,,,,,,,,,,,,,
+"(Dunlop et al., 2021)",97,,,112,,3.38,14.06,,,,,5.49,12.65,,,Functional and uses cross-validation to assess the model,,,,,,,,38.88,11.76
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+"(Koutsouleris et al., 2014)*",800,141,,104,,0,5.57,5.5,6,,,4,6.2,x,HC,Missing HC mean and std,ASKED BY EMAIL (July 23),,,,,,,,
+"(Besteher et al., 2019)*",40,,,38,,0,5.57,,,,,0.41,6.2,,HC and MDD std,missing std for both groups,ASKED BY EMAIL (July 23),,,,,,,,
+"(Rokicki et al., 2020)*",,159,,,,,,,,,,,,,x,Email sent,"EMAIL AND ASK FOR GLOBAL MULTIMODAL FOR SCZ AND BD (THE ACTUAL VALUES, NOT THE BAG DIFF)",,,,,,,,
+"(Rokicki et al., 2020)*",,,135,,,,,,,,,,,,x,Email sent,"EMAIL AND ASK FOR GLOBAL MULTIMODAL FOR SCZ AND BD (THE ACTUAL VALUES, NOT THE BAG DIFF)",,,,,,,,
