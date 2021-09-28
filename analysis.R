@@ -12,17 +12,20 @@ if (remove_imputed) {
 }
 r = metacont(matrix_sz$N_SZ, matrix_sz$E_SZ, matrix_sz$S_SZ, matrix_sz$N_HC, matrix_sz$E_HC, matrix_sz$S_HC, matrix_sz$Study)
 png("/home/spc/Projects/brain-age-meta-analysis/images/sz.png", width=1000)
+pdf("/home/spc/Projects/brain-age-meta-analysis/images/sz.pdf", width=15)
 forest.meta(r)
 dev.off()
 
 r = metacont(matrix_bd$N_BD, matrix_bd$E_BD, matrix_bd$S_BD, matrix_bd$N_HC, matrix_bd$E_HC, matrix_bd$S_HC, matrix_bd$Study)
 png("/home/spc/Projects/brain-age-meta-analysis/images/bd.png", width=1000)
+pdf("/home/spc/Projects/brain-age-meta-analysis/images/bd.pdf", width=15)
 forest.meta(r)
 dev.off()
 
 
 r = metacont(matrix_mdd$N_MDD, matrix_mdd$E_MDD, matrix_mdd$S_MDD, matrix_mdd$N_HC, matrix_mdd$E_HC, matrix_mdd$S_HC, matrix_mdd$Study)
 png("/home/spc/Projects/brain-age-meta-analysis/images/mdd.png", width=1000)
+pdf("/home/spc/Projects/brain-age-meta-analysis/images/mdd.pdf", width=15)
 forest.meta(r)
 dev.off()
 
